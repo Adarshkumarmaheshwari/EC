@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/favicon.png" type="image/gif" sizes="16x16" />
+
+    <title>Add Candidates</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/sweetalert2.css" />
+</head>
+
+<body>
+
+    <img src="./images/logo.png" alt="Poll junction" class="logo2" />
+    <script src="./js/addCandidate.js"></script>
+    <h3 class="backButton">
+        <a href="./index.html">
+            << Back to Home</a>
+    </h3>
+
+    <div class="centerform">
+        <form>
+            <h2>Candidate Names:</h2>
+            <br />
+            <textarea type="text" id="ListOfRegisteredPersons"></textarea>
+            <input type="button" id="addButton" value="Add" />
+        </form>
+        <div>
+            <h3>Guide to add multiple candidates:</h3>
+            -<b> Enter after each name of the candidate</b><br /> Example: <br /> Ramesh <br /> Suresh <br /> Rajesh
+            <br />
+        </div>
+    </div>
+    <script src="./js/sweetalert2.min.js"></script>
+</body>
+
+</html>

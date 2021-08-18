@@ -1,0 +1,30 @@
+{
+  "name": "poll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app.js",
+    "dev": "cross-env NODE_ENV=development nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "202012100",
+  "license": "ISC",
+  "bugs": {},
+  "homepage": "",
+  "dependencies": {
+    "dotenv": "^8.5.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "sweetalert2": "^11.1.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.12"
+  }
+}
